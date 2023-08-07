@@ -1,0 +1,62 @@
+body{
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(159,224,138);
+}
+
+h1 {
+  color: rgb(43,99,161);
+}
+
+#addTask{
+  width: 400px;
+  height: 35px;
+  font-size: 1.5rem;
+}
+
+p span{
+  opacity: 0.5;
+  font-size: 1.3rem;
+}
+
+#taskList li{
+  list-style-type: none;
+
+}
+
+input[type="checkbox"]:checked + label{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+#myTasks{
+  box-shadow: 1px 1px 5px rgba(39,74,10, 0.244);
+  padding: 10px;
+}
+
+#taskList li {
+  padding: 5px;
+  color: rgb(39,74,10);
+}
+
+#headline{
+  display: flex;
+  justify-content: start;
+}
+
+.btn {
+  opacity: 0.5;
+  margin: 10px 0 10px 50px ;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  border-radius: 3px ;
+  background-color: rgb(43,99,161);
+  color: rgb(119, 212, 119);
+  border: none;
+}
+
+.del1{
+  opacity: 1;
+}
+
+
