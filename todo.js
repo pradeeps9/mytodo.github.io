@@ -1,7 +1,7 @@
 let newTask = document.getElementById("addTask");
 let taskNo = 1;
 
-// Only a-z char are valid
+//* Validating characters to alphabets, numericals and space
 newTask.addEventListener("keydown", function (e){
   if(e.key.match(/[a-zA-Z0-9 ]/g) == null){
     e.preventDefault();
